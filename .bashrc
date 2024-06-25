@@ -123,8 +123,5 @@ setxkbmap -option "caps:swapescape"
 
 eval "$(starship init bash)"
 
-
-
-
-
+pfetch
 
