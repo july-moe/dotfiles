@@ -116,8 +116,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-setxkbmap -option "ctrl:swap_lalt_lctl"
-setxkbmap -option "caps:swapescape"
 
 . /usr/share/autojump/autojump.sh
 
