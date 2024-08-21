@@ -19,7 +19,7 @@ filetype indent on
 
 syntax on
 
-colorscheme slate
+colorscheme catppuccin_mocha
 
 set ruler
 
@@ -36,6 +36,8 @@ set tabstop=4
 set expandtab
 
 set scrolloff=10
+
+set termguicolors
 
 
 set incsearch
