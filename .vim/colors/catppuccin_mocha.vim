@@ -4,7 +4,7 @@ set background=dark
 hi clear
 
 if exists('syntax on')
-    syntax reset
+  syntax reset
 endif
 
 let g:colors_name='catppuccin_mocha'

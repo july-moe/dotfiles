@@ -88,9 +88,9 @@ fi
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # some more ls aliases
-alias ll='exa -al --sort newest'
+alias ll='ls -alF'
 alias la='ls -A'
-alias ls='exa --long'
+alias l='ls -CF'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -116,10 +116,5 @@ if ! shopt -oq posix; then
   fi
 fi
 
-
-. /usr/share/autojump/autojump.sh
-
 eval "$(starship init bash)"
-
-pfetch
-
+fastfetch -c ~/.config/fastfetch/my.jsonc
