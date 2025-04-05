@@ -48,6 +48,14 @@ set smartcase
 
 set laststatus=2
 
+let mapleader = " "
+nnoremap <leader>h :bprevious<CR>
+nnoremap <leader>l :bnext<CR>
+nnoremap <leader>q :wq<CR>
+nnoremap <leader>l :write<CR>
+
+
+
 inoremap jj <Esc>
 "inoremap <c-b> <Esc>:Lex<cr>:vertical resize 30<cr>
 "nnoremap <c-b> <Esc>:Lex<cr>:vertical reseze 30<cr>
