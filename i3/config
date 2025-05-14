@@ -233,6 +233,7 @@ bindsym $mod+r mode "resize"
 for_window [class="gnome-calculator"] floating enable
 for_window [class="Blueman-manager"] floating enable, resize set 600 400
 for_window [class="Pcmanfm"] floating enable, resize set 800 600
+for_window [class="Network Connections"] floating enable , resize set 600 400
 
 
 #assign [class="firefox"] $ws2

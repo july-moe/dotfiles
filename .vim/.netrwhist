@@ -1,12 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =1
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/govin/.config/awesome'
+let g:netrw_dirhist_4='/home/govin/.config'
+let g:netrw_dirhist_3='/home/govin/.config/i3'
+let g:netrw_dirhist_2='/home/govin/.config'
 let g:netrw_dirhist_1='/home/govin/python'
 let g:netrw_dirhist_0='/usr/share/doc/polybar/examples'
 let g:netrw_dirhist_9='/usr/share/doc/polybar'
 let g:netrw_dirhist_8='/home/govin/Downloads/mench-main/LinuxMint-Ubuntu/i3status'
 let g:netrw_dirhist_7='/home/govin/.w3m'
 let g:netrw_dirhist_6='/home/govin/.vim'
-let g:netrw_dirhist_5='/etc'
-let g:netrw_dirhist_4='/home/govin/.config/Pinta'
-let g:netrw_dirhist_3='/home/govin/.config'
-let g:netrw_dirhist_2='/home/govin'
